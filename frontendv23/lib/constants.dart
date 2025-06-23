@@ -11,4 +11,4 @@
 /// const String backendBaseUrl = 'http://10.0.2.2:8080';
 
 /// ――― 물리 단말/다른 PC/동일 LAN ―――
-const String backendBaseUrl = 'http://192.168.218.34:8080';
+const String backendBaseUrl = 'http://127.0.0.1:8080';

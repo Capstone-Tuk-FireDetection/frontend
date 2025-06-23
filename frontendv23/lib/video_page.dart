@@ -26,7 +26,7 @@ Widget build(BuildContext context) {
     children: [
       Expanded(
         child: kIsWeb
-            ? WebMjpegView(streamUrl)          // ⚡ 웹일 때
+            ? WebMjpegView(streamUrl: streamUrl)      // ⚡ 웹일 때
             : Mjpeg(                           // 모바일·데스크톱
                 stream: streamUrl,
                 isLive: true,
